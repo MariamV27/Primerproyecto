@@ -54,3 +54,138 @@ body {
 .subtitulo {
   padding: 4px 0;
 }
+.titulo-blog .contenedor h1 a:hover{
+  color:  #8b919c;
+}
+.titulo-blog .contenedor .subtitulo{
+  font: -size: 16px;
+  letter-spacing: 1px;
+  color: #c7c7c7;
+}
+
+.menu-principal   .contenedor ul li{
+  display: inline-block;
+  padding: 10px 20px;
+text-decoration: none;
+color: #363940;
+}
+/*BANNE*/
+.main .banner{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.main .banner .contenedor .banner-principal{
+  width:  100%;
+}
+.main .banner .contenedor .banner-principal  img{
+width: 100%;
+}
+.blog{
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+.blog .contenedor{
+  overflow: hidden;
+}
+/*Articulos blog*/
+.blog .contenedor .articulos-blog{
+  float: left;
+  width: 68%;
+}
+.blog .contenedor .articulos-blog .articulo{
+  background: #fff;
+  padding: 60px 0;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.blog .contenedor .articulos-blog .articulo .fecha-articulo{
+  color: #c7c7c7;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+..blog .contenedor .articulos-blog .articulo {
+  color: #363940;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.blog .contenedor .articulos-blog .articulo img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.blog .contenedor .articulos-blog .articulo .texto-articulo {
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.blog .contenedor .articulos-blog .articulo .texto-articulo p{
+  margin-bottom: 20px;
+  color: #363940;
+}
+.blog .contenedor .articulos-blog .articulo .blog{
+  text-align: center;
+}
+.blog .contenedor .articulos-blog .articulo .boton a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  border: 1px solid #bababa;
+  font-size:  14px;
+  color: #7d7d7d;
+}
+    .aside{
+      float: right;
+      width: 28%;
+    }
+    .aside .widget .autor-widget .foto-autor img{
+      width: 80%;
+    }
+  .aside .widget{
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f0f0;
+  }
+  .aside .widget .autor-widget .foto-autor{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .aside .widget .autor-widget .foto-autor img{
+    width: 120px;
+    border-radius: 50%;
+  }
+  .aside .widget .autor-widget .datos-autor{
+    text-align: center;
+  }
+  .aside .widget .autor-widget .datos-autor .nombre{
+    color: #363636;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .aside .widget .autor-widget .datos-autos .profesion{
+    color: #9c9c9c;
+    front-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .aside .widget .autor-widget .datos-autor .info{
+    color: #363940;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  footer{
+    background: #fff;
+    padding: 40px;
+    padding: 1px solid #f0f0f0;
+    text-align: center;
+    color: #9c9c9c;
+    
+  }
+
+
+
+
