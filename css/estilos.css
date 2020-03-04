@@ -8,68 +8,116 @@
 body {
   font-family: sans-serif;
 }
+.container{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0px auto;
+}
+
+/*Inicio TOP-MENU*/
 .header {
   width: 100%;
-  background: #fafafa;
-  color: #363940;
-  padding: 10px;
-}
-.header .contenedor {
-  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background: #E5E8E8 ;
+  /* Flex*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-.header ul {
-  list-style: none;
-}
-.header .menu ul, .header .menu, .header .menu-principal .contenedor ul {
-  display: flex;
 }
 .header .menu {
   width: 100%;
-  align-self: flex-start;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: 300;
+  /*Flex*/
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+
 }
-.header .menu li, .header .menu-principal li {
-  padding: 0 4px;
+.header .menu .top-menu-left{
+  width: 50%;
+  margin-left: 20px;
 }
-.header .menu ul a, .header .menu-principal a {
+.header .menu .top-menu-right{
+  width: 50%;
+  text-align: right;
+  margin-right: 20px;
+}
+.header .menu a{
+  font-size: 18px;
+  margin: 10px;
   text-decoration: none;
-  color: black;
+  color: #000;
 }
-.header .menu ul a:hover, .header .menu-principal a:hover {
-  text-decoration: underline;
+.header .menu a:hover{
+  border-bottom: 2px solid #34495E;
 }
-.header .menu-principal {
-  align-self: center;
-  padding: 20px 0;
+.header .menu a .instagram{
+  color: #e1306c;
 }
-.titulo-blog h1 {
-  color: black;
-  border-bottom: 1px solid black;
+.header .menu a .facebook{
+  color: #3b5998;
 }
-.subtitulo {
-  padding: 4px 0;
+.titulo-blog{
+  width: 100%;
+  /*FLEX*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.titulo-blog .contenedor h1 a:hover{
-  color:  #8b919c;
+.titulo-blog .titulo{
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 20px;
 }
-.titulo-blog .contenedor .subtitulo{
-  font: -size: 16px;
-  letter-spacing: 1px;
-  color: #c7c7c7;
+.titulo-blog .subtitulo{
+  font-size: 25px;
+  font-weight: 300;
+}
+.menu-principal{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  font-weight: 300;
+}
+.menu-principal a{
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+}
+.menu-principal a:hover{
+  border-bottom: 2px solid #34495E;
+}
+/*Fin Del TOP-MENU*/
+
+
+/*Principio del body Article o main*/
+/*Sin terminar*/
+.main{
+  width: 100%;
+  /*Flex*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.menu-principal   .contenedor ul li{
-  display: inline-block;
-  padding: 10px 20px;
-text-decoration: none;
-color: #363940;
-}
 /*BANNE*/
+.banner{
+  width: 100%;
+}
+
+/*Div para dividir tu aside*/
+/* No esta terminado tenia sueño y estabas dormida para continuar
+mañana lo sigo viendo */
+.m-article{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 .main .banner{
   padding-bottom: 20px;
   border-bottom: 1px solid #f0f0f0;
@@ -81,7 +129,7 @@ color: #363940;
 width: 100%;
 }
 .blog{
-  background-color: #f7f7f7;
+  width: 60%;
   padding: 40px 0;
 }
 .blog .contenedor{
@@ -90,10 +138,8 @@ width: 100%;
 /*Articulos blog*/
 .blog .contenedor .articulos-blog{
   float: left;
-  width: 68%;
 }
 .blog .contenedor .articulos-blog .articulo{
-  background: #fff;
   padding: 60px 0;
   border: 1px solid #f0f0f0;
   margin-bottom: 20px;
@@ -105,7 +151,7 @@ width: 100%;
   text-align: center;
   margin-bottom: 20px;
 }
-..blog .contenedor .articulos-blog .articulo {
+.blog .contenedor .articulos-blog .articulo {
   color: #363940;
   font-size: 14px;
   font-weight: bold;
@@ -129,17 +175,17 @@ width: 100%;
   text-align: center;
 }
 .blog .contenedor .articulos-blog .articulo .boton a{
-  text-decoration: none;
   display: inline-block;
   padding: 15px 20px;
-  background: none;
   border: 1px solid #bababa;
   font-size:  14px;
   color: #7d7d7d;
 }
     .aside{
+      width: 38%;
+      height: 100%;
       float: right;
-      width: 28%;
+      margin-top: 40px;
     }
     .aside .widget .autor-widget .foto-autor img{
       width: 80%;
@@ -168,7 +214,7 @@ width: 100%;
   }
   .aside .widget .autor-widget .datos-autos .profesion{
     color: #9c9c9c;
-    front-size: 16px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
