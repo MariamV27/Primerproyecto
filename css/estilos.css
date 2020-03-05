@@ -1,28 +1,34 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 body {
+  top: 0;
   font-family: sans-serif;
+
 }
 .container{
   width: 100%;
-  max-width: 1400px;
+  height: 768px;
   margin: 0px auto;
+  
 }
 
 /*Inicio TOP-MENU*/
 .header {
   width: 100%;
+  height: 768px;
   font-family: 'Open Sans', sans-serif;
-  background: #E5E8E8 ;
+  background:url("../img/argentina_edit.jpg") rgba(208, 211, 212, .8) ;
   /* Flex*/
   display: flex;
   flex-direction: column;
   align-items: center;
+  object-fit: contain ;
+  background-repeat: round;
 }
 .header .menu {
   width: 100%;
@@ -48,10 +54,10 @@ body {
   font-size: 18px;
   margin: 10px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 .header .menu a:hover{
-  border-bottom: 2px solid #34495E;
+  border-bottom: 2px solid #fff;
 }
 .header .menu a .instagram{
   color: #e1306c;
@@ -61,15 +67,15 @@ body {
 }
 .titulo-blog{
   width: 100%;
+  color: #fff;
   /*FLEX*/
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .titulo-blog .titulo{
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 400;
-  font-style: italic;
   margin-top: 20px;
 }
 .titulo-blog .subtitulo{
@@ -87,10 +93,10 @@ body {
   font-size: 20px;
   margin: 10px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 .menu-principal a:hover{
-  border-bottom: 2px solid #34495E;
+  border-bottom: 2px solid #fff;
 }
 /*Fin Del TOP-MENU*/
 
