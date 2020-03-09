@@ -133,6 +133,7 @@ mañana lo sigo viendo */
 }
 .main .banner .contenedor .banner-principal  img{
 width: 100%;
+
 }
 .blog{
   width: 60%;
@@ -144,6 +145,14 @@ width: 100%;
 /*Articulos blog*/
 .blog .contenedor .articulos-blog{
   float: left;
+  padding: 0 10px;
+  background: #fff;
+  border: 10px solid #2c3e50;
+  margin: 20px;
+
+  
+
+ 
 }
 .blog .contenedor .articulos-blog .articulo{
   padding: 60px 0;
